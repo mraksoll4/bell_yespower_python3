@@ -1,4 +1,4 @@
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 bell_yespower_module = Extension('bell_yespower',
                             sources = ['yespower-module.c',
