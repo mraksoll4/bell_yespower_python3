@@ -43,13 +43,13 @@ static struct PyModuleDef YespowerModule = {
     YespowerMethods
 };
 
-PyMODINIT_FUNC PyInit_bell_yespower(void) {
+PyMODINIT_FUNC PyInit_bitweb_yespower(void) {
     return PyModule_Create(&YespowerModule);
 }
 
 #else
 
-PyMODINIT_FUNC initbell_yespower(void) {
-    (void) Py_InitModule("bell_yespower", YespowerMethods);
+PyMODINIT_FUNC initbitweb_yespower(void) {
+    (void) Py_InitModule("bitweb_yespower", YespowerMethods);
 }
 #endif

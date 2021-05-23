@@ -1,6 +1,6 @@
 #include "yespower.h"
 /* 
- * yespower for bellcoin
+ * yespower for bitweb coin
  */
 int yespower_hash(const char *input, char *output)
 {
